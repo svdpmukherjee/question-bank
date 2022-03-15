@@ -1,0 +1,87 @@
+[
+  {
+    "number": 1,
+    "id": 999,
+    "question": "A circle is inscribed in a Rhombus with diagonals 12 cm and 16 cm. The ratio of the area of circle to the area of rhombus is?"
+  },
+  {
+    "number": 2,
+    "id": 8,
+    "question": "A gentleman decided to treat a few children in the following manner. He gives half of his total stock of toffees and one extra to the first child, and then the half of the remaining stock along with one extra to the second and continues giving away in this fashion. His total stock exhausts after he takes care of 5 children. How many toffees were there in his stock initially?"
+  },
+  {
+    "number": 3,
+    "id": 15,
+    "question": "A rectangular tiled floor is composed of 70 square tiles. The rectangular floor is rearranged so that 2 tiles are removed from each column and 4 tiles are added to each row. After the change in layout, the floor will still have 70 tiles, and still be rectangular. How many columns are in the tile floor before the change in layout?"
+  },
+  {
+    "number": 4,
+    "id": 13,
+    "question": "A number when divided by a divisor leaves a remainder of 24. When twice the original number is divided by the same divisor, the remainder is 11. What is the value of the divisor?"
+  },
+  {
+    "number": 5,
+    "id": 9,
+    "question": "When 242 is divided by a certain divisor the remainder obtained is 8. When 698 is divided by the same divisor the remainder obtained is 9. However, when the sum of the two numbers 242 and 698 is divided by the divisor, the remainder obtained is 4. What is the value of the divisor?"
+  },
+  {
+    "number": 7,
+    "id": 1,
+    "question": "The population of City X increased from 2 million in the year 2000 to 2.5 million in 2015 and the gross domestic product of the city in 2000 was 38 less than that in 2015. What was the approximate percent change, rounded to the nearest integer if required, in the per capita gross domestic product of the city from 2000 to 2015?"
+  },
+  {
+    "number": 8,
+    "id": 4,
+    "question": "Tarak Mehta sold a pair of Tshirt and jeans at 25% profit. The profit obtained on Tshirt was 20%. Had he reduced the both cost price of the Tshirt and selling price of the Tshirt by Rs. 200, his profit on the pair would have risen to 30%. Earlier cost price of the jeans was Rs.80 less than half of the selling price of the Tshirt. What price should he mark on a pair of Tshirt and jeans to earn a profit of 50%?"
+  },
+  {
+    "number": 8,
+    "id": 10,
+    "question": "In Mohenjo-Daro, when percentage was not in use, a merchant sold the products as buys 5 get 3 free or buy 15 get 5 free plus free transportation. The expenditures on transporting 20 products is equal to the marked price of 5 products. In today scenario, what is the difference between the percentage of discount offered by the merchant?"
+  },
+  {
+    "number": 9,
+    "id": 5,
+    "question": "A stall sells popcorn and chips in packets of three sizes: large, super, and jumbo. The numbers of large, super, and jumbo packets in its stock are in the ratio 7 : 17 : 16 for popcorn and 6 : 15 : 14 for chips. If the total number of popcorn packets in its stock is the same as that of chips packets, then the numbers of jumbo popcorn packets and jumbo chips packets are in the ratio?"
+  },
+  {
+    "number": 10,
+    "id": 12,
+    "question": "The number of solutions ( x, y, z) to the equation x - y - z = 25, where x, y, and z are positive integers such that x≤40,y≤12, and z≤12 is?"
+  },
+  {
+    "number": 11,
+    "id": 14,
+    "question": "Let a1 a2 a3n be an arithmetic progression with a1 = 3 and a2 = 7. If a1+ a2 +...+ a3n= 1830, then what is the smallest positive integer m such that m(a1+ a2 +...+ an) > 1830?"
+  },
+  {
+    "number": 12,
+    "id": 999,
+    "question": "A man buys 35 kg of sugar and sets a marked price in order to make a 20% profit. He sells 5 kg at this price, and 15 kg at a 10% discount. Accidentally, 3 kg of sugar is wasted. He sells the remaining sugar by raising the marked price by p percent so as to make an overall profit of 15%. Then p is nearest to?"
+  },
+  {
+    "number": 13,
+    "id": 6,
+    "question": "Let the m-th and n-th terms of a geometric progression be 34 and 12 , respectively, where m<n. If the common ratio of the progression is an integer r, then the smallest possible value of r + n - m is?"
+  },
+  {
+    "number": 14,
+    "id": 2,
+    "question": "Students in a college have to choose at least two subjects from chemistry, mathematics and physics. The number of students choosing all three subjects is 18, choosing mathematics as one of their subjects is 23 and choosing physics as one of their subjects is 25. The smallest possible number of students who could choose chemistry as one of their subjects is?"
+  },
+  {
+    "number": 15,
+    "id": 11,
+    "question": "On a rectangular metal sheet of area 135 sq in, a circle is painted such that the circle touches two opposite sides. If the area of the sheet left unpainted is two-thirds of the painted area then the perimeter of the rectangle in inches is?"
+  },
+  {
+    "number": 16,
+    "id": 3,
+    "question": "Anil buys 12 toys and labels each with the same selling price. He sells 8 toys initially at 20% discount on the labeled price. Then he sells the remaining 4 toys at an additional 25% discount on the discounted price. Thus, he gets a total of Rs 2112, and makes a 10% profit. With no discounts, his percentage of profit would have been?"
+  },
+  {
+    "number": 17,
+    "id": 7,
+    "question": "In the final examination, Bishnu scored 52% and Asha scored 64%. The marks obtained by Bishnu is 23 less, and that by Asha is 34 more than the marks obtained by Ramesh. The marks obtained by Geeta, who scored 84%, is?"
+  }
+]
