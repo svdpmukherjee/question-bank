@@ -97,6 +97,7 @@ export default function Home({ ip_address }) {
                                 className="w-30 m-1 p-2  ml-6"
                                 id={ques.id}
                                 key={ques.number}
+                                disabled={true}
                                 onClick={(e) => handleShowAnswer(e)}
                               >
                                 {buttonText}
