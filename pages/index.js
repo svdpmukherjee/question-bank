@@ -164,21 +164,22 @@ export default function Home({ ip_address }) {
 }
 
 export async function getServerSideProps({ req }) {
-  const res = await axios.get('https://geolocation-db.com/json');
-  const ip = res.data.IPv4;
+  const ip = req.headers['x-real-ip'] || req.connection.remoteAddress;
+  // const res = await axios.get('https://geolocation-db.com/json');
+  // const ip = res.data.IPv4;
   const ip_segments = ip.split('.');
   let ip_segments_int = ip_segments.map((item) => parseInt(item, 10));
 
   // transforming IP addresses
-  // ip_segments_int[0] = ip_segments_int[0] * Math.pow(2, 2) + 5 * 5;
-  // ip_segments_int[1] = ip_segments_int[1] * Math.pow(3, 3) + 4 * 4;
-  // ip_segments_int[2] = ip_segments_int[2] * Math.pow(4, 4) + 3 * 3;
-  // ip_segments_int[3] = ip_segments_int[3] * Math.pow(5, 5) + 2 * 2;
-  // const ip_address = ip_segments_int.join('.').toString();
+  ip_segments_int[0] = ip_segments_int[0] * Math.pow(2, 2) + 5 * 5;
+  ip_segments_int[1] = ip_segments_int[1] * Math.pow(3, 3) + 4 * 4;
+  ip_segments_int[2] = ip_segments_int[2] * Math.pow(4, 4) + 3 * 3;
+  ip_segments_int[3] = ip_segments_int[3] * Math.pow(5, 5) + 2 * 2;
+  const ip_address = ip_segments_int.join('.').toString();
 
   return {
     props: {
-      ip_address: ip,
+      ip_address,
     }, // will be passed to the page component as props
   };
 }
