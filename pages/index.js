@@ -4,10 +4,12 @@ import Head from 'next/head';
 import { useEffect, useState, createContext } from 'react';
 import Navbar from '../components/Navbar';
 import axios from 'axios';
+import { browserName, isMobile, isDesktop } from 'react-device-detect';
 
 export default function Home({ ip_address }) {
   const [buttonClick, setButtonClick] = useState('');
   const [buttonText, setButtonText] = useState('');
+  let deviceType = '';
   // const [buttonColor, setButtonColor] = useState('');
 
   // Show answer button
@@ -20,11 +22,14 @@ export default function Home({ ip_address }) {
       body: questionNo,
     });
 
+    isMobile ? (deviceType = 'Mobile') : (deviceType = 'Desktop');
     // read-add-database
     let passValue = {
       ip_address: ip_address,
       questionNo: questionNo,
       date: date,
+      deviceType: deviceType,
+      browser: browserName,
     };
     let response_post = await fetch('/api/databaseOperations', {
       method: 'POST',
