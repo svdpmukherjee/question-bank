@@ -52,7 +52,9 @@ export default function Home({ ip_address }) {
   };
 
   // Expalanation button
-  const handleExplanation = () => {};
+  const handleExplanation = () => {
+    
+  };
 
   // JSX
   return (
