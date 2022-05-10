@@ -6,82 +6,147 @@
   },
   {
     "number": 2,
-    "id": 8,
-    "question": "Mr. Reha Tuncer decided to treat his neighbours in the manner that he gives one-third of his total stock of candies and one extra to the first neighbour, and then the one-third of the remaining stock along with one extra to the second and continues giving away in this fashion. His total stock exhausted after he gave away to 8 neighbour. How many candies were there in his stock initially?"
+    "id": 999,
+    "question": "The infinite sum 1 + (4/7) + (9/72)^2 + (16/73)^3 + (25/74)^4 + …. equals?"
   },
   {
     "number": 3,
-    "id": 15,
+    "id": 999,
     "question": "A rectangular tiled floor is composed of 70 square tiles. The rectangular floor is rearranged so that 2 tiles are removed from each column and 4 tiles are added to each row. After the change in layout, the floor will still have 70 tiles, and still be rectangular. How many columns are in the tile floor before the change in layout?"
   },
   {
     "number": 4,
-    "id": 13,
+    "id": 999,
     "question": "A number when divided by a divisor leaves a remainder of 24. When twice the original number is divided by the same divisor, the remainder is 11. What is the value of the divisor?"
   },
   {
     "number": 5,
-    "id": 9,
+    "id": 999,
+    "question": "The sum of the ages of 4 members of a family 5 years ago was 94 years. Today, when the daughter has married off and replaced by a daughter-in-law the sum of their ages is 92. Assuming that there has been no other change in the family structure and all the people are alive, what is the different in the age of the daughter and the daughter-in-law?"
+  },
+  {
+    "number": 6,
+    "id": 999,
     "question": "When 242 is divided by a certain divisor the remainder obtained is 8. When 698 is divided by the same divisor the remainder obtained is 9. However, when the sum of the two numbers 242 and 698 is divided by the divisor, the remainder obtained is 4. What is the value of the divisor?"
   },
   {
     "number": 7,
-    "id": 1,
-    "question": "The population of City X increased from 2 million in the year 2000 to 2.5 million in 2015 and the gross domestic product of the city in 2000 was 38 less than that in 2015. What was the approximate percent change, rounded to the nearest integer if required, in the per capita gross domestic product of the city from 2000 to 2015?"
+    "id": 999,
+    "question": "The sum of the first 20 term of the sequence 0.7, 0.77, 0.777, …, is?"
   },
   {
     "number": 8,
-    "id": 4,
-    "question": "Tarak Mehta sold a pair of Tshirt and jeans at 25% profit. The profit obtained on Tshirt was 20%. Had he reduced the both cost price of the Tshirt and selling price of the Tshirt by Rs. 200, his profit on the pair would have risen to 30%. Earlier cost price of the jeans was Rs.80 less than half of the selling price of the Tshirt. What price should he mark on a pair of Tshirt and jeans to earn a profit of 50%?"
-  },
-  {
-    "number": 8,
-    "id": 10,
-    "question": "In Mohenjo-Daro, when percentage was not in use, a merchant sold the products as buys 5 get 3 free or buy 15 get 5 free plus free transportation. The expenditures on transporting 20 products is equal to the marked price of 5 products. In today scenario, what is the difference between the percentage of discount offered by the merchant?"
+    "id": 8,
+    "question": "John sold a pair of toys (Doraemon and Superman) at 25% profit. The profit obtained from Doraemon was 20%. If he reduced the both cost price of the Doraemon and selling price of the Doraemon by $200, his profit on the pair would have risen to 30%. Earlier cost price of the Superman was $80 less than half of the selling price of the Doraemon. What price should he mark on a pair of Doraemon and Superman to earn a profit of 50%?"
   },
   {
     "number": 9,
-    "id": 5,
-    "question": "A stall sells popcorn and chips in packets of three sizes: large, super, and jumbo. The numbers of large, super, and jumbo packets in its stock are in the ratio 7 : 17 : 16 for popcorn and 6 : 15 : 14 for chips. If the total number of popcorn packets in its stock is the same as that of chips packets, then the numbers of jumbo popcorn packets and jumbo chips packets are in the ratio?"
+    "id": 999,
+    "question": "In medieval times, when percentage was not in use, a merchant sold the products as buys 5 get 3 free or buy 15 get 5 free plus free transportation. The expenditures on transporting 20 products is equal to the marked price of 5 products. In today scenario, what is the difference between the percentage of discount offered by the merchant?"
   },
   {
     "number": 10,
-    "id": 12,
-    "question": "The number of solutions ( x, y, z) to the equation x - y - z = 25, where x, y, and z are positive integers such that x≤40,y≤12, and z≤12 is?"
+    "id": 999,
+    "question": "A numbers 17, 21, 30, 55, 104, 225 forms a series. If 2414 is the nth term of the above given series, then find the value of n."
   },
   {
     "number": 11,
-    "id": 14,
-    "question": "Let a1 a2 a3n be an arithmetic progression with a1 = 3 and a2 = 7. If a1+ a2 +...+ a3n= 1830, then what is the smallest positive integer m such that m(a1+ a2 +...+ an) > 1830?"
+    "id": 999,
+    "question": "What will come in place of the question mark (?) in the following questions? 245, 384, 567, 800, 1089, ?"
   },
   {
     "number": 12,
+    "id": 7,
+    "question": "Guess the number in the series: 2, 12, 43, 235, ?, 6702"
+  },
+  {
+    "number": 13,
+    "id": 999,
+    "question": "Predict the number in the question mark: 23, 55, 136, 200, ?, 231"
+  },
+  {
+    "number": 14,
+    "id": 999,
+    "question": "A series is 121, 130, 155, 204, 285, 406. If another series __, 83, __, m, __, __ follows the same pattern as the given number series, then find the value of m."
+  },
+  {
+    "number": 15,
+    "id": 999,
+    "question": "A stall sells popcorn and chips in packets of three sizes: large, super, and jumbo. The numbers of large, super, and jumbo packets in its stock are in the ratio 7 : 17 : 16 for popcorn and 6 : 15 : 14 for chips. If the total number of popcorn packets in its stock is the same as that of chips packets, then the numbers of jumbo popcorn packets and jumbo chips packets are in the ratio?"
+  },
+  {
+    "number": 16,
+    "id": 999,
+    "question": "The number of solutions ( x, y, z) to the equation x - y - z = 25, where x, y, and z are positive integers such that (x,y,z) ≤ 40 is?"
+  },
+  {
+    "number": 17,
+    "id": 999,
+    "question": "Let a1 a2 a3n be an arithmetic progression with a1 = 3 and a2 = 7. If a1+ a2 +...+ a3n= 1830, then what is the smallest positive integer m such that m(a1+ a2 +...+ an) > 1830?"
+  },
+  {
+    "number": 18,
     "id": 999,
     "question": "A man buys 35 kg of sugar and sets a marked price in order to make a 20% profit. He sells 5 kg at this price, and 15 kg at a 10% discount. Accidentally, 3 kg of sugar is wasted. He sells the remaining sugar by raising the marked price by p percent so as to make an overall profit of 15%. Then p is nearest to?"
   },
   {
-    "number": 13,
-    "id": 6,
+    "number": 19,
+    "id": 5,
+    "question": "Alina bought 21 candles and labelled them with same selling price. She sells 12 candles initially at 25% discount on the labeled price. Then she sells the remaining 9 candles at an additional 30% discount on the discounted price. Thus, she gets a total of $1612, and makes a 15% profit. With no discounts, her percentage of profit would have been?"
+  },
+  {
+    "number": 20,
+    "id": 999,
     "question": "Let the m-th and n-th terms of a geometric progression be 34 and 12 , respectively, where m<n. If the common ratio of the progression is an integer r, then the smallest possible value of r + n - m is?"
   },
   {
-    "number": 14,
-    "id": 2,
+    "number": 21,
+    "id": 999,
     "question": "Students in a college have to choose at least two subjects from chemistry, mathematics and physics. The number of students choosing all three subjects is 18, choosing mathematics as one of their subjects is 23 and choosing physics as one of their subjects is 25. The smallest possible number of students who could choose chemistry as one of their subjects is?"
   },
   {
-    "number": 15,
-    "id": 11,
+    "number": 22,
+    "id": 999,
     "question": "On a rectangular metal sheet of area 135 sq in, a circle is painted such that the circle touches two opposite sides. If the area of the sheet left unpainted is two-thirds of the painted area then the perimeter of the rectangle in inches is?"
   },
   {
-    "number": 16,
-    "id": 3,
-    "question": "Anil buys 12 toys and labels each with the same selling price. He sells 8 toys initially at 20% discount on the labeled price. Then he sells the remaining 4 toys at an additional 25% discount on the discounted price. Thus, he gets a total of Rs 2112, and makes a 10% profit. With no discounts, his percentage of profit would have been?"
+    "number": 23,
+    "id": 999,
+    "question": "A person bought an article with 30 per cent discount on the labelled price. He sold the article with 12 per cent profit on the labelled price. What was his per cent profit on the price he bought?"
   },
   {
-    "number": 17,
-    "id": 7,
-    "question": "In the final examination, Bishnu scored 52% and Asha scored 64%. The marks obtained by Bishnu is 23 less, and that by Asha is 34 more than the marks obtained by Ramesh. The marks obtained by Geeta, who scored 84%, is?"
+    "number": 24,
+    "id": 10,
+    "question": "The number of solutions ( a, b, c) to the equation a - b - c = 37, where a, b, and c are positive integers such that a≤35, b≤17, and c≤17 is?"
+  },
+  {
+    "number": 25,
+    "id": 999,
+    "question": "In the final examination, student A scored 52% and student B scored 64%. The marks obtained by student A is 23 less, and that by student B is 34 more than the marks obtained by student C. The marks obtained by student D, who scored 84%, is?"
+  },
+  {
+    "number": 26,
+    "id": 4,
+    "question": "The population of Rio de Janeiro increased from 1.5 million in the year 2009 to 2.5 million in 2021 and the gross domestic product of the city in 2009 was 61 less than that in 2021. What was the approximate percent change, in the per capita gross domestic product of the city from 2009 to 2021?"
+  },
+  {
+    "number": 27,
+    "id": 999,
+    "question": "The word FAUCET is coded as GBWEHW in a certain code language. In the same language, CODING will be coded as ___?"
+  },
+  {
+    "number": 28,
+    "id": 999,
+    "question": "A vessel has certain quantity of milk and then 8 liters of milk is taken out and replaced with water. Now 10 liters of mixture taken out and replace with water and again 12 liters of the mixture is taken out and replaced with water. If the initial quantity of the milk in the vessel is 80 liters, then what is the final quantity of the milk?"
+  },
+  {
+    "number": 29,
+    "id": 2,
+    "question": "Mrs. Romi Lancer decided to treat her neighbours in the manner that she gives one-third of his total stock of candies and one extra to the first neighbour, and then the one-third of the remaining stock along with one extra to the second and continues giving away in this fashion. Her total stock exhausted after she gave away to 7 neighbours. How many candies were there in her stock initially?"
+  },
+  {
+    "number": 30,
+    "id": 999,
+    "question": "Vessel A contains the mixture of Petrol and Diesel in the ratio of 3: 2, vessel B contains the mixture of Petrol and Kerosene in the ratio of 1: 2 and Vessel C contains mixture of Kerosene and Diesel in the ratio of 2: 3. If all the vessels are mixed in the ratio of 4: 3: 2, then find the respective ratio of Petrol, Diesel and Kerosene in the final mixture?"
   }
 ]

@@ -1,4 +1,19 @@
 import React from 'react';
+import {
+  Button,
+  Card,
+  CardHeader,
+  CardBody,
+  FormGroup,
+  Form,
+  Input,
+  InputGroupAddon,
+  InputGroupText,
+  InputGroup,
+  Modal,
+  Row,
+  Col,
+} from 'reactstrap';
 import questions from '../questions.json';
 import Head from 'next/head';
 import { useEffect, useState, createContext } from 'react';
@@ -9,6 +24,7 @@ import { browserName, isMobile } from 'react-device-detect';
 export default function Home({ ip_address }) {
   const [buttonClick, setButtonClick] = useState('');
   const [buttonText, setButtonText] = useState('');
+  const [modalFormOpen, setModalFormOpen] = useState(false);
   let deviceType = '';
   // const [buttonColor, setButtonColor] = useState('');
 
@@ -52,25 +68,23 @@ export default function Home({ ip_address }) {
   };
 
   // Expalanation button
-  const handleExplanation = () => {
-    
-  };
+  const handleExplanation = () => {};
 
   // JSX
   return (
-    <div>
+    <div className="">
       <Head>
-        <title>Quant Crusader Blog</title>
+        <title>Questions Set for Quantitative Aptitude</title>
       </Head>
 
       <Navbar />
 
-      <div className=" py-8 m-3 h-full ">
+      <div className=" py-8 h-full bg-gradient-to-r from-green-500 via-purple-500 to-pink-500">
         <div className="grid grid-cols-9 gap-3">
-          <div className="rounded-lg col-span-1">
-            <div className=" flex items-center justify-center">
-              <div>
-                <a href="#" className="flex items-center">
+          <div className="rounded-lg col-span-1 ">
+            <div className=" p-2 flex items-center justify-center ">
+              <div className="">
+                <a href="#" className="flex items-center ">
                   <img src="ad_1.jpg" className="" alt="quant crusader" />
                 </a>
                 <a href="#" className="flex items-center py-10">
@@ -83,7 +97,7 @@ export default function Home({ ip_address }) {
             </div>
           </div>
 
-          <div className=" border-2 rounded-lg col-span-6 p-3">
+          <div className=" border-2 rounded-lg col-span-6 p-3 bg-white">
             <div className="grid grid-cols-5 py-2">
               {questions.map((ques) => {
                 return (
@@ -135,13 +149,6 @@ export default function Home({ ip_address }) {
                       >
                         {ques.id == buttonClick ? buttonText : 'Show Answer'}
                       </button> */}
-
-                      <button
-                        className="w-30 m-1 p-2 bg-gray-300 text-white rounded-sm shadow-md ml-6"
-                        onClick={handleExplanation}
-                      >
-                        Explanation
-                      </button>
                     </div>
                   </>
                 );
@@ -149,7 +156,7 @@ export default function Home({ ip_address }) {
             </div>
           </div>
 
-          <div className=" col-span-2">
+          <div className="p-2 col-span-2 ">
             <div>
               <a href="#" className="flex items-center ">
                 <img src="gif_1.gif" className="" alt="quant crusader" />
