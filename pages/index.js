@@ -47,6 +47,7 @@ export default function Home({ ip_address }) {
       deviceType: deviceType,
       browser: browserName,
     };
+    console.log(passValue);
     let response_post = await fetch('/api/databaseOperations', {
       method: 'POST',
       body: JSON.stringify(passValue),
@@ -149,6 +150,12 @@ export default function Home({ ip_address }) {
                       >
                         {ques.id == buttonClick ? buttonText : 'Show Answer'}
                       </button> */}
+                      <button
+                        className="w-30 m-1 p-2 bg-gray-300 text-white rounded-sm shadow-md ml-6"
+                        onClick={handleExplanation}
+                      >
+                        Explanation
+                      </button>
                     </div>
                   </>
                 );

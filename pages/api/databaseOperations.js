@@ -1,5 +1,3 @@
-import { useState } from 'react';
-
 const { connectToDatabase } = require('../../lib/mongodb');
 const ObjectId = require('mongodb').ObjectId;
 //const [value, setValue] = useState('');
@@ -55,12 +53,13 @@ async function addEntry(req, res) {
   // console.log(data);
   try {
     let { db } = await connectToDatabase();
+    console.log(db);
     const answer = await db
       .collection('updated_answer')
       .findOne({ question_no: data.questionNo });
     // console.log(answer);
     data.answer = parseFloat(answer.answer);
-    // console.log(data);
+    console.log(data);
     db.collection('honeypot_website').insertOne(data);
 
     //  db.collection('exam_interface').insertOne(JSON.parse(req.body));
