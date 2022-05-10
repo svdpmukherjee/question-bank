@@ -130,7 +130,7 @@ export default function Home({ ip_address }) {
                           return (
                             <>
                               <button
-                                className="w-30 m-1 p-2 bg-gray-400 text-white rounded-sm shadow-md ml-6"
+                                className="w-30 m-1 p-2 bg-gray-400 hover:bg-gray-700 text-white rounded-sm shadow-md ml-6"
                                 id={ques.id}
                                 key={ques.number}
                                 onClick={(e) => handleShowAnswer(e)}
