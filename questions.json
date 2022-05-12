@@ -37,7 +37,7 @@
   {
     "number": 8,
     "id": 8,
-    "question": "John sold a pair of toys (Doraemon and Superman) at 25% profit. The profit obtained from Doraemon was 20%. If he reduced the both cost price of the Doraemon and selling price of the Doraemon by $200, his profit on the pair would have risen to 30%. Earlier cost price of the Superman was $80 less than half of the selling price of the Doraemon. What price should he mark on a pair of Doraemon and Superman to earn a profit of 50%?"
+    "question": "What should be the next number (in place of ?) in the series: 37, 64, -61, 282, -447, ?"
   },
   {
     "number": 9,
@@ -56,8 +56,8 @@
   },
   {
     "number": 12,
-    "id": 7,
-    "question": "Guess the number in the series: 2, 12, 43, 235, ?, 6702"
+    "id": 6,
+    "question": "The number of solutions (a, b, c) to the equation a - b - c = 37, where a, b, and c are positive integers such that a≤43, b≤10, and c≤10 is?"
   },
   {
     "number": 13,
@@ -91,8 +91,8 @@
   },
   {
     "number": 19,
-    "id": 5,
-    "question": "Alina bought 21 candles and labelled them with same selling price. She sells 12 candles initially at 25% discount on the labeled price. Then she sells the remaining 9 candles at an additional 30% discount on the discounted price. Thus, she gets a total of $1612, and makes a 15% profit. With no discounts, her percentage of profit would have been?"
+    "id": 4,
+    "question": "Vincent and Rosetta finally started their long planned farming business. Vincent invested $4332 for 18 months and Rosetta invested $3000 for 13 months. If both of them earned a profit of $2500 after 18 months then what is the profit share of Vincent?"
   },
   {
     "number": 20,
@@ -116,8 +116,8 @@
   },
   {
     "number": 24,
-    "id": 10,
-    "question": "The number of solutions ( a, b, c) to the equation a - b - c = 37, where a, b, and c are positive integers such that a≤35, b≤17, and c≤17 is?"
+    "id": 999,
+    "question": "A man ordered a pairs of black socks and some pairs of brown socks.The price of a black socks is double that of a brown pair. While preparing the bill the clerk interchanged the number of black and brown pairs by mistake which increased the bill by 50%. What was the ratio of the number of black and brown pairs of socks in the original order?"
   },
   {
     "number": 25,
@@ -126,8 +126,8 @@
   },
   {
     "number": 26,
-    "id": 4,
-    "question": "The population of Rio de Janeiro increased from 1.5 million in the year 2009 to 2.5 million in 2021 and the gross domestic product of the city in 2009 was 61 less than that in 2021. What was the approximate percent change, in the per capita gross domestic product of the city from 2009 to 2021?"
+    "id": 999,
+    "question": "A bag contains $102 in the form of 1 dollar, 50 cents and 10 cents coins in the ratio 3 : 4 : 10. What is the number of 10 cents coins?"
   },
   {
     "number": 27,
@@ -141,7 +141,7 @@
   },
   {
     "number": 29,
-    "id": 2,
+    "id": 3,
     "question": "A lady decided to treat her neighbours in the manner that she gives one-third of his total stock of candies and one extra to the first neighbour, and then the one-third of the remaining stock along with one extra to the second and continues giving away in this fashion. Her total stock exhausted after she gave away to 7 neighbours. How many candies were there in her stock initially?"
   },
   {
