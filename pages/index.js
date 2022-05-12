@@ -1,19 +1,5 @@
 import React from 'react';
-import {
-  Button,
-  Card,
-  CardHeader,
-  CardBody,
-  FormGroup,
-  Form,
-  Input,
-  InputGroupAddon,
-  InputGroupText,
-  InputGroup,
-  Modal,
-  Row,
-  Col,
-} from 'reactstrap';
+
 import questions from '../questions.json';
 import Head from 'next/head';
 import { useEffect, useState, createContext } from 'react';
@@ -85,13 +71,22 @@ export default function Home({ ip_address }) {
           <div className="rounded-lg col-span-1 ">
             <div className=" p-2 flex items-center justify-center ">
               <div className="">
-                <a href="#" className="flex items-center ">
+                <a
+                  href="https://www.mba.com/exam-prep/gmat-official-guide-bundle-2022-ebook-and-online-question-bank"
+                  className="flex items-center "
+                >
                   <img src="ad_1.jpg" className="" alt="quant crusader" />
                 </a>
-                <a href="#" className="flex items-center py-10">
+                <a
+                  href="https://www.thebalancecareers.com/best-gmat-prep-courses-5118223"
+                  className="flex items-center py-10"
+                >
                   <img src="ad_2.jpg" className="" alt="quant crusader" />
                 </a>
-                <a href="#" className="flex items-center py-10">
+                <a
+                  href="https://www.amazon.com/GMAT-Prep-Plus-2022-2023-Strategies/dp/1506277233"
+                  className="flex items-center py-10"
+                >
                   <img src="ad_3.jpg" className="" alt="quant crusader" />
                 </a>
               </div>
@@ -151,7 +146,7 @@ export default function Home({ ip_address }) {
                         {ques.id == buttonClick ? buttonText : 'Show Answer'}
                       </button> */}
                       <button
-                        className="w-30 m-1 p-2 bg-gray-300 text-white rounded-sm shadow-md ml-6"
+                        className="w-30 m-1 p-2 bg-gray-300 text-white hover:bg-gray-500 rounded-sm shadow-md ml-6"
                         onClick={handleExplanation}
                       >
                         Explanation
@@ -165,10 +160,16 @@ export default function Home({ ip_address }) {
 
           <div className="p-2 col-span-2 ">
             <div>
-              <a href="#" className="flex items-center ">
+              <a
+                href="https://www.stress.org/virtual-therapy-helping-ease-college-students-anxiety-about-covid-19"
+                className="flex items-center "
+              >
                 <img src="gif_1.gif" className="" alt="quant crusader" />
               </a>
-              <a href="#" className="flex items-center  py-10">
+              <a
+                href="https://brittanymondido.com/"
+                className="flex items-center  py-10"
+              >
                 <img src="gif_2.gif" className="" alt="quant crusader" />
               </a>
             </div>
