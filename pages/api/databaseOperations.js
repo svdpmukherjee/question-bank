@@ -27,6 +27,15 @@ async function updateEntry(req, res) {
 
     await db.collection('updated_answer').updateOne(
       {
+        question_no: 4,
+      },
+      {
+        $inc: {
+          // answer: (parseFloat(answer.toFixed(3)) + 0.001).toString(),
+          answer: 1,
+        },
+      }
+      {
         question_no: req.body,
       },
       {

@@ -36,13 +36,13 @@
   },
   {
     "number": 8,
-    "id": 8,
+    "id": 3,
     "question": "What should be the next number (in place of ?) in the series: 37, 64, -61, 282, -447, ?"
   },
   {
     "number": 9,
-    "id": 999,
-    "question": "In medieval times, when percentage was not in use, a merchant sold the products as buys 5 get 3 free or buy 15 get 5 free plus free transportation. The expenditures on transporting 20 products is equal to the marked price of 5 products. In today scenario, what is the difference between the percentage of discount offered by the merchant?"
+    "id": 7,
+    "question": "Alina and Luce can do a piece of work in 36 days and 81 days respectively. Both together work for 5 days and then Alina leaves off. How many days will Luce take to finish the remaining work?"
   },
   {
     "number": 10,
@@ -56,7 +56,7 @@
   },
   {
     "number": 12,
-    "id": 6,
+    "id": 8,
     "question": "The number of solutions (a, b, c) to the equation a - b - c = 37, where a, b, and c are positive integers such that a≤43, b≤10, and c≤10 is?"
   },
   {
@@ -91,7 +91,7 @@
   },
   {
     "number": 19,
-    "id": 4,
+    "id": 2,
     "question": "Vincent and Rosetta finally started their long planned farming business. Vincent invested $4332 for 18 months and Rosetta invested $3000 for 13 months. If both of them earned a profit of $2500 after 18 months then what is the profit share of Vincent?"
   },
   {
@@ -102,7 +102,7 @@
   {
     "number": 21,
     "id": 999,
-    "question": "Students in a college have to choose at least two subjects from chemistry, mathematics and physics. The number of students choosing all three subjects is 18, choosing mathematics as one of their subjects is 23 and choosing physics as one of their subjects is 25. The smallest possible number of students who could choose chemistry as one of their subjects is?"
+    "question": "A man ordered a pairs of black socks and some pairs of brown socks.The price of a black socks is double that of a brown pair. While preparing the bill the clerk interchanged the number of black and brown pairs by mistake which increased the bill by 50%. What was the ratio of the number of black and brown pairs of socks in the original order?"
   },
   {
     "number": 22,
@@ -111,8 +111,8 @@
   },
   {
     "number": 23,
-    "id": 999,
-    "question": "A person bought an article with 30 per cent discount on the labelled price. He sold the article with 12 per cent profit on the labelled price. What was his per cent profit on the price he bought?"
+    "id": 4,
+    "question": "Stevan is thrice as old as David. He will be thrice as old as Martin in 10 years. If Martin is 11 years and 3 months old, what will be the sum of their ages after 20 years?"
   },
   {
     "number": 24,
@@ -141,8 +141,8 @@
   },
   {
     "number": 29,
-    "id": 3,
-    "question": "A lady decided to treat her neighbours in the manner that she gives one-third of his total stock of candies and one extra to the first neighbour, and then the one-third of the remaining stock along with one extra to the second and continues giving away in this fashion. Her total stock exhausted after she gave away to 7 neighbours. How many candies were there in her stock initially?"
+    "id": 5,
+    "question": "Mrs. Romi Lancer decided to treat her neighbours in the manner that she gives one-third of his total stock of candies and one extra to the first neighbour, and then the one-third of the remaining stock along with one extra to the second and continues giving away in this fashion. Her total stock exhausted after she gave away to 7 neighbours. How many candies were there in her stock initially?"
   },
   {
     "number": 30,

@@ -10,7 +10,6 @@ import { browserName, isMobile } from 'react-device-detect';
 export default function Home({ ip_address }) {
   const [buttonClick, setButtonClick] = useState('');
   const [buttonText, setButtonText] = useState('');
-  const [modalFormOpen, setModalFormOpen] = useState(false);
   let deviceType = '';
   // const [buttonColor, setButtonColor] = useState('');
 
@@ -117,7 +116,7 @@ export default function Home({ ip_address }) {
                                 disabled={true}
                                 onClick={(e) => handleShowAnswer(e)}
                               >
-                                {buttonText}
+                                Answer: {buttonText}
                               </button>
                             </>
                           );
