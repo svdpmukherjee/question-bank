@@ -34,7 +34,7 @@ async function updateEntry(req, res) {
           // answer: (parseFloat(answer.toFixed(3)) + 0.001).toString(),
           answer: 1,
         },
-      }
+      },
       {
         question_no: req.body,
       },
