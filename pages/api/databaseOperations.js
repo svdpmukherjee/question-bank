@@ -32,7 +32,7 @@ async function updateEntry(req, res) {
       {
         $inc: {
           // answer: (parseFloat(answer.toFixed(3)) + 0.001).toString(),
-          answer: 1,
+          answer: 0.5,
         },
       },
       {
