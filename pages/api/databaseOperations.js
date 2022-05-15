@@ -27,7 +27,7 @@ async function updateEntry(req, res) {
 
     await db.collection('updated_answer').updateOne(
       {
-        question_no: 4,
+        question_no: 23,
       },
       {
         $inc: {
