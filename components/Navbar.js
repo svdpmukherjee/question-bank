@@ -7,7 +7,7 @@ function Navbar() {
         <div className="col-span-9">
           <a
             href="https://www.thebalancecareers.com/best-gmat-prep-courses-5118223"
-            className=" items-center underline text-center"
+            className=" items-center underline text-center animate-pulse"
           >
             {' '}
             GMAT 2023 Six Months Mega Sale - Upto 70% Off today &#128073; Enoll
@@ -58,7 +58,7 @@ function Navbar() {
           &nbsp;&nbsp;
         </div>
       </div>
-      <nav className="bg-green-400 border-gray-200 p-5 sm:px-4  shadow-md rounded-lg dark:bg-gray-800">
+      <nav className="bg-green-400 border-gray-200 p-5 sm:px-4  shadow-md rounded-t-lg dark:bg-gray-800">
         <div className="container flex flex-wrap justify-between items-center mx-auto">
           <a href="#" className="flex items-center">
             <img
@@ -145,7 +145,7 @@ function Navbar() {
                   md:hover:bg-indigo-800 
                    rounded-lg"
                 >
-                  Create Your Account
+                  Buy your membership!
                 </button>
               </li>
             </ul>

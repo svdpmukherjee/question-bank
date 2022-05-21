@@ -4,7 +4,11 @@ module.exports = {
     './components/**/*.{js,ts,jsx,tsx}',
   ],
   theme: {
-    extend: {},
+    extend: {
+      animation: {
+        pulse: 'pulse 0.5s linear infinite',
+      },
+    },
   },
   plugins: [],
 };

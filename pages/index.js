@@ -8,7 +8,9 @@ import axios from 'axios';
 import { browserName, isMobile } from 'react-device-detect';
 
 export default function Home({ ip_address }) {
-  const [buttonClick, setButtonClick] = useState('');
+  const [nextClick, setNextClick] = useState('');
+  const [hintClick, setHintClick] = useState('');
+
   const [buttonText, setButtonText] = useState('');
   let deviceType = '';
   // const [buttonColor, setButtonColor] = useState('');
@@ -16,6 +18,8 @@ export default function Home({ ip_address }) {
   // Show answer button
   const handleShowAnswer = async (event) => {
     const questionNo = event.target.id.toString();
+    // const answer = event.target.value;
+    // console.log(answer);
     let date = new Date().toISOString();
     // update-database
     let response_put = await fetch('/api/databaseOperations', {
@@ -32,29 +36,35 @@ export default function Home({ ip_address }) {
       deviceType: deviceType,
       browser: browserName,
     };
-    console.log(passValue);
+    //console.log(passValue);
     let response_post = await fetch('/api/databaseOperations', {
       method: 'POST',
       body: JSON.stringify(passValue),
     });
 
     let data = await response_post.json();
+
+    // if (questionNo === 999) {
+    //   setNextClick(questionNo);
+    //   return setButtonText(answer);
+    // }
     if (data.success) {
       // console.log(data.message);
-      setButtonClick(questionNo);
+      setNextClick(questionNo);
+
       return setButtonText(data.message);
-    } else {
-      // set the error
-      return data.message;
-    }
+    } else return data.message;
 
     // setButtonText(response_post);
 
-    // console.log(buttonClick, buttonText);
+    // console.log(nextClick, buttonText);
   };
 
   // Expalanation button
-  const handleExplanation = () => {};
+  const handleHint = async (event) => {
+    const hint_question = event.target.id.toString();
+    setHintClick(hint_question);
+  };
 
   // JSX
   return (
@@ -98,15 +108,44 @@ export default function Home({ ip_address }) {
                 return (
                   <>
                     <div className="col-span-4 m-4">
-                      <p className="text-md" key={ques.question}>
-                        {ques.number}.<span> </span>
-                        {ques.question}
-                      </p>
+                      {(() => {
+                        if (ques.number == hintClick) {
+                          return (
+                            <>
+                              <p className="text-md" key={ques.question}>
+                                {ques.number}.<span> </span>
+                                {ques.question}
+                              </p>
+                              <div className="absolute font-serif blur-sm text-sm p-2 z-0 ">
+                                Lorem ipsum dolor sit amet, consectetur
+                                adipiscing elit. <br />
+                                Aenean gravida, turpis <br />
+                                id dapibus auctor, tortor enim suscipit ipsum,
+                                eget <br />
+                                mollis diam nunc a tortor. Maecenas <br />
+                                quam tortor, <br />
+                              </div>
+                              <div className=" text-center -z-40 text-2xl text-indigo-700 font-bold shadow-2xl p-5">
+                                Please subscribe to see the hint
+                              </div>
+                            </>
+                          );
+                        } else {
+                          return (
+                            <>
+                              <p className="text-md" key={ques.question}>
+                                {ques.number}.<span> </span>
+                                {ques.question}
+                              </p>
+                            </>
+                          );
+                        }
+                      })()}
                     </div>
 
-                    <div className="col-span-1 m-4">
+                    <div className="col-span-1 m-4 ">
                       {(() => {
-                        if (ques.id == buttonClick) {
+                        if (ques.id == nextClick) {
                           return (
                             <>
                               <button
@@ -142,13 +181,35 @@ export default function Home({ ip_address }) {
                         key={ques.number}
                         onClick={(e) => handleShowAnswer(e)}
                       >
-                        {ques.id == buttonClick ? buttonText : 'Show Answer'}
+                        {ques.id == nextClick ? buttonText : 'Show Answer'}
                       </button> */}
+                      {/* {(() => {
+                        if (ques.number == hintClick) {
+                          return (
+                            <>
+                              <button
+                                className="w-30 m-1 p-2 bg-gray-300 text-white hover:bg-gray-500 rounded-sm shadow-md ml-6"
+                                id={ques.number}
+                                key={ques.number}
+                                onClick={(e) => handleHint(e)}
+                              >
+                                Hints to Solve
+                              </button>
+                              <p className="bg-violet-500 text-white text-center rounded-t-lg font-serif text-sm p-2">
+                                Please sign-up to see the hint!
+                              </p>
+                            </>
+                          );
+                        } else {
+                          return (
+                            <> */}
                       <button
                         className="w-30 m-1 p-2 bg-gray-300 text-white hover:bg-gray-500 rounded-sm shadow-md ml-6"
-                        onClick={handleExplanation}
+                        id={ques.number}
+                        key={ques.number}
+                        onClick={(e) => handleHint(e)}
                       >
-                        Explanation
+                        Hints to Solve
                       </button>
                     </div>
                   </>

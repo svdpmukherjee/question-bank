@@ -53,7 +53,7 @@ async function addEntry(req, res) {
   // console.log(data);
   try {
     let { db } = await connectToDatabase();
-    console.log(db);
+    // console.log(db);
     const answer = await db
       .collection('updated_answer')
       .findOne({ question_no: data.questionNo });
