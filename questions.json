@@ -1,38 +1,45 @@
 [
   {
     "number": 1,
-    "id": 999,
-    "question": "A circle is inscribed in a Rhombus with diagonals 12 cm and 16 cm. The ratio of the area of circle to the area of rhombus is?"
+    "id": 901,
+    "question": "A circle is inscribed in a Rhombus with diagonals 12 cm and 16 cm. The ratio of the area of circle to the area of rhombus is?",
+    "answer": "5pi/25"
   },
   {
     "number": 2,
-    "id": 999,
-    "question": "The infinite sum 1 + (4/7) + (9/72)^2 + (16/73)^3 + (25/74)^4 + …. equals?"
+    "id": 902,
+    "question": "The infinite sum 1 + (4/7) + (9/72)^2 + (16/73)^3 + (25/74)^4 + …. equals?",
+    "answer": "49/27"
   },
   {
     "number": 3,
-    "id": 999,
-    "question": "A rectangular tiled floor is composed of 70 square tiles. The rectangular floor is rearranged so that 2 tiles are removed from each column and 4 tiles are added to each row. After the change in layout, the floor will still have 70 tiles, and still be rectangular. How many columns are in the tile floor before the change in layout?"
+    "id": 903,
+    "question": "A rectangular tiled floor is composed of 70 square tiles. The rectangular floor is rearranged so that 2 tiles are removed from each column and 4 tiles are added to each row. After the change in layout, the floor will still have 70 tiles, and still be rectangular. How many columns are in the tile floor before the change in layout?",
+    "answer": "10"
   },
   {
     "number": 4,
-    "id": 999,
-    "question": "A number when divided by a divisor leaves a remainder of 24. When twice the original number is divided by the same divisor, the remainder is 11. What is the value of the divisor?"
+    "id": 904,
+    "question": "A number when divided by a divisor leaves a remainder of 24. When twice the original number is divided by the same divisor, the remainder is 11. What is the value of the divisor?",
+    "answer": "37"
   },
   {
     "number": 5,
-    "id": 999,
-    "question": "The sum of the ages of 4 members of a family 5 years ago was 94 years. Today, when the daughter has married off and replaced by a daughter-in-law the sum of their ages is 92. Assuming that there has been no other change in the family structure and all the people are alive, what is the different in the age of the daughter and the daughter-in-law?"
+    "id": 905,
+    "question": "The sum of the ages of 4 members of a family 5 years ago was 94 years. Today, when the daughter has married off and replaced by a daughter-in-law the sum of their ages is 92. Assuming that there has been no other change in the family structure and all the people are alive, what is the different in the age of the daughter and the daughter-in-law?",
+    "answer": "22"
   },
   {
     "number": 6,
-    "id": 999,
-    "question": "When 242 is divided by a certain divisor the remainder obtained is 8. When 698 is divided by the same divisor the remainder obtained is 9. However, when the sum of the two numbers 242 and 698 is divided by the divisor, the remainder obtained is 4. What is the value of the divisor?"
+    "id": 906,
+    "question": "When 242 is divided by a certain divisor the remainder obtained is 8. When 698 is divided by the same divisor the remainder obtained is 9. However, when the sum of the two numbers 242 and 698 is divided by the divisor, the remainder obtained is 4. What is the value of the divisor?",
+    "answer": "13"
   },
   {
     "number": 7,
-    "id": 999,
-    "question": "The sum of the first 20 term of the sequence 0.7, 0.77, 0.777, …, is?"
+    "id": 907,
+    "question": "The sum of the first 20 term of the sequence 0.7, 0.77, 0.777, …, is?",
+    "answer": "7/81*(179+10^-20)"
   },
   {
     "number": 8,
@@ -46,13 +53,15 @@
   },
   {
     "number": 10,
-    "id": 999,
-    "question": "A numbers 17, 21, 30, 55, 104, 225 forms a series. If 2414 is the nth term of the above given series, then find the value of n."
+    "id": 908,
+    "question": "A numbers 17, 21, 30, 55, 104, 225 forms a series. If 2414 is the nth term of the above given series, then find the value of n.",
+    "answer": "10"
   },
   {
     "number": 11,
-    "id": 999,
-    "question": "What will come in place of the question mark (?) in the following questions? 245, 384, 567, 800, 1089, ?"
+    "id": 909,
+    "question": "What will come in place of the question mark (?) in the following questions? 245, 384, 567, 800, 1089, ?",
+    "answer": "1440"
   },
   {
     "number": 12,
@@ -61,33 +70,39 @@
   },
   {
     "number": 13,
-    "id": 999,
-    "question": "Predict the number in the question mark: 23, 55, 136, 200, ?, 231"
+    "id": 910,
+    "question": "Predict the number in the question mark: 23, 55, 136, 200, ?, 231",
+    "answer": "225"
   },
   {
     "number": 14,
-    "id": 999,
-    "question": "A series is 121, 130, 155, 204, 285, 406. If another series __, 83, __, m, __, __ follows the same pattern as the given number series, then find the value of m."
+    "id": 911,
+    "question": "A series is 121, 130, 155, 204, 285, 406. If another series __, 83, __, m, __, __ follows the same pattern as the given number series, then find the value of m.",
+    "answer": "157"
   },
   {
     "number": 15,
-    "id": 999,
-    "question": "A stall sells popcorn and chips in packets of three sizes: large, super, and jumbo. The numbers of large, super, and jumbo packets in its stock are in the ratio 7 : 17 : 16 for popcorn and 6 : 15 : 14 for chips. If the total number of popcorn packets in its stock is the same as that of chips packets, then the numbers of jumbo popcorn packets and jumbo chips packets are in the ratio?"
+    "id": 912,
+    "question": "A stall sells popcorn and chips in packets of three sizes: large, super, and jumbo. The numbers of large, super, and jumbo packets in its stock are in the ratio 7 : 17 : 16 for popcorn and 6 : 15 : 14 for chips. If the total number of popcorn packets in its stock is the same as that of chips packets, then the numbers of jumbo popcorn packets and jumbo chips packets are in the ratio?",
+    "answer": "1:1"
   },
   {
     "number": 16,
-    "id": 999,
-    "question": "The number of solutions ( x, y, z) to the equation x - y - z = 25, where x, y, and z are positive integers such that (x,y,z) ≤ 40 is?"
+    "id": 913,
+    "question": "The number of solutions ( x, y, z) to the equation x - y - z = 25, where x, y, and z are positive integers such that (x,y,z) ≤ 40 is?",
+    "answer": "99"
   },
   {
     "number": 17,
-    "id": 999,
-    "question": "Let a1 a2 a3n be an arithmetic progression with a1 = 3 and a2 = 7. If a1+ a2 +...+ a3n= 1830, then what is the smallest positive integer m such that m(a1+ a2 +...+ an) > 1830?"
+    "id": 914,
+    "question": "Let a1 a2 a3n be an arithmetic progression with a1 = 3 and a2 = 7. If a1+ a2 +...+ a3n= 1830, then what is the smallest positive integer m such that m(a1+ a2 +...+ an) > 1830?",
+    "answer": "9"
   },
   {
     "number": 18,
-    "id": 999,
-    "question": "A man buys 35 kg of sugar and sets a marked price in order to make a 20% profit. He sells 5 kg at this price, and 15 kg at a 10% discount. Accidentally, 3 kg of sugar is wasted. He sells the remaining sugar by raising the marked price by p percent so as to make an overall profit of 15%. Then p is nearest to?"
+    "id": 915,
+    "question": "A man buys 35 kg of sugar and sets a marked price in order to make a 20% profit. He sells 5 kg at this price, and 15 kg at a 10% discount. Accidentally, 3 kg of sugar is wasted. He sells the remaining sugar by raising the marked price by p percent so as to make an overall profit of 15%. Then p is nearest to?",
+    "answer": "25"
   },
   {
     "number": 19,
@@ -96,18 +111,21 @@
   },
   {
     "number": 20,
-    "id": 999,
-    "question": "Let the m-th and n-th terms of a geometric progression be 3/4 and 12 , respectively, where m<n. If the common ratio of the progression is an integer r, then the smallest possible value of r + n - m is?"
+    "id": 916,
+    "question": "Let the m-th and n-th terms of a geometric progression be 3/4 and 12 , respectively, where m<n. If the common ratio of the progression is an integer r, then the smallest possible value of r + n - m is?",
+    "answer": "-2"
   },
   {
     "number": 21,
-    "id": 999,
-    "question": "A man ordered a pairs of black socks and some pairs of brown socks.The price of a black socks is double that of a brown pair. While preparing the bill the clerk interchanged the number of black and brown pairs by mistake which increased the bill by 50%. What was the ratio of the number of black and brown pairs of socks in the original order?"
+    "id": 917,
+    "question": "A man ordered a pairs of black socks and some pairs of brown socks.The price of a black socks is double that of a brown pair. While preparing the bill the clerk interchanged the number of black and brown pairs by mistake which increased the bill by 50%. What was the ratio of the number of black and brown pairs of socks in the original order?",
+    "answer": "25"
   },
   {
     "number": 22,
-    "id": 999,
-    "question": "On a rectangular metal sheet of area 135 sq in, a circle is painted such that the circle touches two opposite sides. If the area of the sheet left unpainted is two-thirds of the painted area then the perimeter of the rectangle in inches is?"
+    "id": 918,
+    "question": "On a rectangular metal sheet of area 135 sq in, a circle is painted such that the circle touches two opposite sides. If the area of the sheet left unpainted is two-thirds of the painted area then the perimeter of the rectangle in inches is?",
+    "answer": "no answer"
   },
   {
     "number": 23,
@@ -116,28 +134,33 @@
   },
   {
     "number": 24,
-    "id": 999,
-    "question": "A man ordered a pairs of black socks and some pairs of brown socks.The price of a black socks is double that of a brown pair. While preparing the bill the clerk interchanged the number of black and brown pairs by mistake which increased the bill by 50%. What was the ratio of the number of black and brown pairs of socks in the original order?"
+    "id": 919,
+    "question": "A man ordered a pairs of black socks and some pairs of brown socks.The price of a black socks is double that of a brown pair. While preparing the bill the clerk interchanged the number of black and brown pairs by mistake which increased the bill by 50%. What was the ratio of the number of black and brown pairs of socks in the original order?",
+    "answer": "25"
   },
   {
     "number": 25,
-    "id": 999,
-    "question": "In the final examination, student A scored 52% and student B scored 64%. The marks obtained by student A is 23 less, and that by student B is 34 more than the marks obtained by student C. The marks obtained by student D, who scored 84%, is?"
+    "id": 920,
+    "question": "In the final examination, student A scored 52% and student B scored 64%. The marks obtained by student A is 23 less, and that by student B is 34 more than the marks obtained by student C. The marks obtained by student D, who scored 84%, is?",
+    "answer": "399"
   },
   {
     "number": 26,
-    "id": 999,
-    "question": "A bag contains $102 in the form of 1 dollar, 50 cents and 10 cents coins in the ratio 3 : 4 : 10. What is the number of 10 cents coins?"
+    "id": 921,
+    "question": "A bag contains $102 in the form of 1 dollar, 50 cents and 10 cents coins in the ratio 3 : 4 : 10. What is the number of 10 cents coins?",
+    "answer": "170"
   },
   {
     "number": 27,
-    "id": 999,
-    "question": "The word FAUCET is coded as GBWEHW in a certain code language. In the same language, CODING will be coded as ___?"
+    "id": 922,
+    "question": "The word FAUCET is coded as 893102 in a certain code language. In the same language, CODING will be coded as ___?",
+    "answer": "931672"
   },
   {
     "number": 28,
-    "id": 999,
-    "question": "A vessel has certain quantity of milk and then 8 liters of milk is taken out and replaced with water. Now 10 liters of mixture taken out and replace with water and again 12 liters of the mixture is taken out and replaced with water. If the initial quantity of the milk in the vessel is 80 liters, then what is the final quantity of the milk?"
+    "id": 923,
+    "question": "A vessel has certain quantity of milk and then 8 liters of milk is taken out and replaced with water. Now 10 liters of mixture taken out and replace with water and again 12 liters of the mixture is taken out and replaced with water. If the initial quantity of the milk in the vessel is 80 liters, then what is the final quantity of the milk?",
+    "answer": "64.8L"
   },
   {
     "number": 29,
@@ -146,7 +169,8 @@
   },
   {
     "number": 30,
-    "id": 999,
-    "question": "Vessel A contains the mixture of Petrol and Diesel in the ratio of 3: 2, vessel B contains the mixture of Petrol and Kerosene in the ratio of 1: 2 and Vessel C contains mixture of Kerosene and Diesel in the ratio of 2: 3. If all the vessels are mixed in the ratio of 4: 3: 2, then find the respective ratio of Petrol, Diesel and Kerosene in the final mixture?"
+    "id": 924,
+    "question": "Vessel A contains the mixture of Petrol and Diesel in the ratio of 3: 2, vessel B contains the mixture of Petrol and Kerosene in the ratio of 1: 2 and Vessel C contains mixture of Kerosene and Diesel in the ratio of 2: 3. If all the vessels are mixed in the ratio of 4: 3: 2, then find the respective ratio of Petrol, Diesel and Kerosene in the final mixture?",
+    "answer": "no answer!"
   }
 ]

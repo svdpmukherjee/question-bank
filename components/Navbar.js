@@ -6,7 +6,8 @@ function Navbar() {
       <div className="bg-green-200 p-3 text-center grid grid-cols-12">
         <div className="col-span-9">
           <a
-            href="https://www.thebalancecareers.com/best-gmat-prep-courses-5118223"
+            //
+            href=""
             className=" items-center underline text-center animate-pulse"
           >
             {' '}
@@ -14,7 +15,7 @@ function Navbar() {
             here{' '}
           </a>
         </div>
-        <div className="flex justify-end p-1 bg-white col-span-3 font-serif text-sm">
+        <div className="flex col-span-3 px-2 font-serif text-sm">
           CONNECT WITH US &nbsp;&nbsp;
           <svg
             class="w-6 h-6 text-blue-600 fill-current"
@@ -59,14 +60,14 @@ function Navbar() {
         </div>
       </div>
       <nav className="bg-green-400 border-gray-200 p-5 sm:px-4  shadow-md rounded-t-lg dark:bg-gray-800">
-        <div className="container flex flex-wrap justify-between items-center mx-auto">
+        <div className=" flex flex-wrap justify-between items-center sm:text-sm mx-auto">
           <a href="#" className="flex items-center">
             <img
               src="logo.png"
               className="mr-3 h-6 sm:h-10"
               alt="quant crusader"
             />
-            <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white font-serif">
+            <span className="text-2xl font-semibold  font-serif">
               Practice set of Quantitative Aptitude questions!
             </span>
           </a>
