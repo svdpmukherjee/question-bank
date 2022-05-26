@@ -60,8 +60,8 @@
   {
     "number": 11,
     "id": 909,
-    "question": "What will come in place of the question mark (?) in the following questions? 245, 384, 567, 800, 1089, ?",
-    "answer": "1440"
+    "question": "While going on vacation to Spain by car, Adam travels the first 6 hours at 50mph speed and the remaining 4 hours at 25mph. Calculate the average speed of Adam in mph?",
+    "answer": "40"
   },
   {
     "number": 12,
@@ -71,8 +71,8 @@
   {
     "number": 13,
     "id": 910,
-    "question": "Predict the number in the question mark: 23, 55, 136, 200, ?, 231",
-    "answer": "225"
+    "question": "What should be the next number (in place of ?) in the series: 11, 18, 29, 32, 49, ?",
+    "answer": "68"
   },
   {
     "number": 14,
@@ -130,7 +130,7 @@
   {
     "number": 23,
     "id": 4,
-    "question": "Stevan is thrice as old as David. He will be thrice as old as Martin in 10 years. If Martin is 11 years and 3 months old, what will be the sum of their ages after 20 years?"
+    "question": "Stevan is 2-times as old as David. Stevan will be 3-times as old as Martin in 2 years. If Martin is 10 years old currently, what will be the summation of their ages (all three) after 10 years?"
   },
   {
     "number": 24,
@@ -159,17 +159,23 @@
   {
     "number": 28,
     "id": 923,
+    "question": "The word DAF is coded as 614 in a specific code language. In the same language, HIG will be coded as ___?",
+    "answer": "798"
+  },
+  {
+    "number": 29,
+    "id": 924,
     "question": "A vessel has certain quantity of milk and then 8 liters of milk is taken out and replaced with water. Now 10 liters of mixture taken out and replace with water and again 12 liters of the mixture is taken out and replaced with water. If the initial quantity of the milk in the vessel is 80 liters, then what is the final quantity of the milk?",
     "answer": "64.8L"
   },
   {
-    "number": 29,
+    "number": 30,
     "id": 5,
     "question": "Mrs. Romi Lancer decided to treat her neighbours in the manner that she gives one-third of his total stock of candies and one extra to the first neighbour, and then the one-third of the remaining stock along with one extra to the second and continues giving away in this fashion. Her total stock exhausted after she gave away to 4 neighbours. How many candies were there in her stock initially?"
   },
   {
-    "number": 30,
-    "id": 924,
+    "number": 31,
+    "id": 925,
     "question": "Vessel A contains the mixture of Petrol and Diesel in the ratio of 3: 2, vessel B contains the mixture of Petrol and Kerosene in the ratio of 1: 2 and Vessel C contains mixture of Kerosene and Diesel in the ratio of 2: 3. If all the vessels are mixed in the ratio of 4: 3: 2, then find the respective ratio of Petrol, Diesel and Kerosene in the final mixture?",
     "answer": "no answer!"
   }
