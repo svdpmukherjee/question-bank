@@ -84,16 +84,15 @@ export default function Home({ ip_address }) {
             <div className=" p-2 flex items-center justify-center ">
               <div className="">
                 <a
-                  // href="https://www.mba.com/exam-prep/gmat-official-guide-bundle-2022-ebook-and-online-question-bank"
-
-                  href=""
+                  href="https://www.mba.com/exam-prep/gmat-official-guide-bundle-2022-ebook-and-online-question-bank"
+                  // href=""
                   className="flex items-center "
                 >
                   <img src="ad_1.jpg" className="" alt="quant crusader" />
                 </a>
                 <a
-                  // href="https://www.thebalancecareers.com/best-gmat-prep-courses-5118223"
-                  href=""
+                  href="https://www.thebalancecareers.com/best-gmat-prep-courses-5118223"
+                  // href=""
                   className="flex items-center py-10"
                 >
                   <img src="ad_2.jpg" className="" alt="quant crusader" />
@@ -243,15 +242,15 @@ export default function Home({ ip_address }) {
           <div className="p-2 col-span-2 ">
             <div>
               <a
-                // href="https://www.stress.org/virtual-therapy-helping-ease-college-students-anxiety-about-covid-19"
+                href="https://www.stress.org/virtual-therapy-helping-ease-college-students-anxiety-about-covid-19"
                 // className="flex items-center "
-                href=""
+                // href=""
               >
                 <img src="gif_1.gif" className="" alt="quant crusader" />
               </a>
               <a
-                // href="https://brittanymondido.com/"
-                href=""
+                href="https://brittanymondido.com/"
+                // href=""
                 className="flex items-center  py-10"
               >
                 <img src="gif_2.gif" className="" alt="quant crusader" />

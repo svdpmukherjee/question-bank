@@ -6,8 +6,7 @@ function Navbar() {
       <div className="bg-green-200 p-3 text-center grid grid-cols-12">
         <div className="col-span-9">
           <a
-            //
-            href=""
+            href="https://www.thebalancecareers.com/best-gmat-prep-courses-5118223"
             className=" items-center underline text-center animate-pulse"
           >
             {' '}
