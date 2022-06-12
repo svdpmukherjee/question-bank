@@ -43,12 +43,13 @@
   },
   {
     "number": 8,
-    "id": 3,
-    "question": "What should be the next number (in place of ?) in the series: 37, 64, -61, 282, -447, ?"
+    "id": 991,
+    "question": "What should be the next number (in place of ?) in the series: 37, 64, -61, 282, -447, ?",
+    "answer": "884"
   },
   {
     "number": 9,
-    "id": 7,
+    "id": 5,
     "question": "Alina and Luce can do a piece of work in 36 days and 81 days respectively. Both together work for 5 days and then Alina leaves off. How many days will Luce take to finish the remaining work?"
   },
   {
@@ -65,8 +66,9 @@
   },
   {
     "number": 12,
-    "id": 8,
-    "question": "The number of solutions (a, b, c) to the equation a - b - c = 37, where a, b, and c are positive integers such that a≤43, b≤10, and c≤10 is?"
+    "id": 983,
+    "question": "The number of solutions (a, b, c) to the equation a - b - c = 37, where a, b, and c are positive integers such that a≤43, b≤10, and c≤10 is?",
+    "answer": "24"
   },
   {
     "number": 13,
@@ -106,7 +108,7 @@
   },
   {
     "number": 19,
-    "id": 3,
+    "id": 4,
     "question": "Vincent and Rosetta finally started their long planned farming business. Vincent invested $4332 for 18 months and Rosetta invested $3000 for 13 months. If both of them earned a profit of $2500 after 18 months then what is the profit share of Vincent?"
   },
   {
@@ -129,8 +131,8 @@
   },
   {
     "number": 23,
-    "id": 4,
-    "question": "Xiaowei is double Andrea's age. Xiaowei will be triple Sofia's age in 2 years. If Sofia is 10 years old currently, what will be the summation of their ages (all three) after 10 years?"
+    "id": 1,
+    "question": "A is double B's age. A will be triple C's age in 2 years. If C is 14 years old currently, what will be the summation of their ages (all three) after 20 years?"
   },
   {
     "number": 24,
@@ -158,9 +160,8 @@
   },
   {
     "number": 28,
-    "id": 923,
-    "question": "The word DAF is coded as 614 in a specific code language. In the same language, HIG will be coded as ___?",
-    "answer": "798"
+    "id": 2,
+    "question": "The word DAF is coded as 614 in a specific code language. In the same language, HIG will be coded as ___?"
   },
   {
     "number": 29,
@@ -170,8 +171,8 @@
   },
   {
     "number": 30,
-    "id": 5,
-    "question": "In Thanksgiving, Mr Larry Bowden decided to distribute some candies among his friends in a manner that he gives half of his total stock of candies and one extra to the first friend, and then the half of the remaining stock along with one extra to the second and continues giving away in this fashion. His total stock exhausted after he gave away to 4 friends. How many candies were there in his stock initially?"
+    "id": 3,
+    "question": "A gentleman decided to distribute some toffees among his children in a manner that he gives half of his total stock of toffees and one extra to the first child, and then the half of the remaining stock along with one extra to the second and continues giving away in this fashion. His total stock exhausted after he gave away to 4 children. How many toffees were there in his stock initially?"
   },
   {
     "number": 31,
