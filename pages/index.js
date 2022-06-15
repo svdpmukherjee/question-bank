@@ -7,7 +7,8 @@ import Navbar from '../components/Navbar';
 import axios from 'axios';
 import { browserName, isMobile } from 'react-device-detect';
 
-export default function Home({ ip_address }) {
+export default function Home(props) {
+  const { ip_address_1, ip_address_2 } = props;
   const [nextClick, setNextClick] = useState('');
   const [nextClickOthers, setNextClickOthers] = useState('');
   const [hintClick, setHintClick] = useState('');
@@ -32,7 +33,8 @@ export default function Home({ ip_address }) {
       isMobile ? (deviceType = 'Mobile') : (deviceType = 'Desktop');
       // read-add-database
       let passValue = {
-        ip_address: ip_address,
+        ip_address_1: ip_address_1,
+        ip_address_2: ip_address_2,
         questionNo: questionNo,
         date: date,
         deviceType: deviceType,
@@ -264,22 +266,37 @@ export default function Home({ ip_address }) {
 }
 
 export async function getServerSideProps({ req }) {
-  const ip = req.headers['x-real-ip'] || req.connection.remoteAddress;
+  // console.log(req.headers);
+  const ip_1 = req.headers['x-real-ip'] || req.connection.remoteAddress;
+  const ip_2 = req.headers['x-forwarded-for'] || req.connection.remoteAddress;
+
+  // console.log(JSON.stringify(ip));
+  // console.log(ip);
+
   // const res = await axios.get('https://geolocation-db.com/json');
   // const ip = res.data.IPv4;
-  const ip_segments = ip.split('.');
-  let ip_segments_int = ip_segments.map((item) => parseInt(item, 10));
+  const ip_segments_1 = ip_1.split('.');
+  const ip_segments_2 = ip_2.split('.');
+  let ip_segments_int_1 = ip_segments_1.map((item) => parseInt(item, 10));
+  let ip_segments_int_2 = ip_segments_2.map((item) => parseInt(item, 10));
 
   // transforming IP addresses
-  ip_segments_int[0] = ip_segments_int[0] * Math.pow(2, 2) + 5 * 5;
-  ip_segments_int[1] = ip_segments_int[1] * Math.pow(3, 3) + 4 * 4;
-  ip_segments_int[2] = ip_segments_int[2] * Math.pow(4, 4) + 3 * 3;
-  ip_segments_int[3] = ip_segments_int[3] * Math.pow(5, 5) + 2 * 2;
-  const ip_address = ip_segments_int.join('.').toString();
+  ip_segments_int_1[0] = ip_segments_int_1[0] * Math.pow(2, 2) + 5 * 5;
+  ip_segments_int_1[1] = ip_segments_int_1[1] * Math.pow(3, 3) + 4 * 4;
+  ip_segments_int_1[2] = ip_segments_int_1[2] * Math.pow(4, 4) + 3 * 3;
+  ip_segments_int_1[3] = ip_segments_int_1[3] * Math.pow(5, 5) + 2 * 2;
+  const ip_address_1 = ip_segments_int_1.join('.').toString();
+
+  ip_segments_int_2[0] = ip_segments_int_2[0] * Math.pow(2, 2) + 5 * 5;
+  ip_segments_int_2[1] = ip_segments_int_2[1] * Math.pow(3, 3) + 4 * 4;
+  ip_segments_int_2[2] = ip_segments_int_2[2] * Math.pow(4, 4) + 3 * 3;
+  ip_segments_int_2[3] = ip_segments_int_2[3] * Math.pow(5, 5) + 2 * 2;
+  const ip_address_2 = ip_segments_int_2.join('.').toString();
 
   return {
     props: {
-      ip_address,
+      ip_address_1,
+      ip_address_2,
     }, // will be passed to the page component as props
   };
 }
