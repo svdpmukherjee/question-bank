@@ -16,6 +16,23 @@ export default function Home(props) {
   const [buttonText, setButtonText] = useState('');
   let deviceType = '';
 
+  useEffect(async () => {
+    isMobile ? (deviceType = 'Mobile') : (deviceType = 'Desktop');
+    let passValue = {
+      website: 'gmatcrusader',
+      ip_address_1: ip_address_1,
+      ip_address_2: ip_address_2,
+      date: new Date().toISOString().substring(0, 10),
+      time: new Date().toISOString().substring(11, 19),
+      deviceType: deviceType,
+      browser: browserName,
+    };
+    let response = await fetch('/api/databaseOperations', {
+      method: 'DELETE',
+      body: JSON.stringify(passValue),
+    });
+  }, [ip_address_1]);
+
   // Show answer button
   const handleShowAnswer = async (event) => {
     const questionNo = event.target.id.toString();
@@ -23,7 +40,7 @@ export default function Home(props) {
       setNextClickOthers(questionNo);
       setNextClick('');
     } else {
-      let date = new Date().toISOString();
+      // let date = new Date().toISOString();
       // update-database
       let response_put = await fetch('/api/databaseOperations', {
         method: 'PUT',
@@ -33,10 +50,12 @@ export default function Home(props) {
       isMobile ? (deviceType = 'Mobile') : (deviceType = 'Desktop');
       // read-add-database
       let passValue = {
+        website: 'gmatcrusader',
         ip_address_1: ip_address_1,
         ip_address_2: ip_address_2,
         questionNo: questionNo,
-        date: date,
+        date: new Date().toISOString().substring(0, 10),
+        time: new Date().toISOString().substring(11, 19),
         deviceType: deviceType,
         browser: browserName,
       };

@@ -15,7 +15,7 @@ export default async function handler(req, res) {
       return updateEntry(req, res);
     }
     case 'DELETE': {
-      return deleteEntry(req, res);
+      return addIP(req, res);
     }
   }
 }
@@ -66,6 +66,26 @@ async function addEntry(req, res) {
 
     return res.json({
       message: data.answer,
+      success: true,
+    });
+  } catch (error) {
+    return res.json({
+      message: new Error(error).message,
+      success: false,
+    });
+  }
+}
+
+async function addIP(req, res) {
+  const data = JSON.parse(req.body);
+
+  try {
+    let { db } = await connectToDatabase();
+    console.log(data);
+    db.collection('ip_db').insertOne(data);
+    // console.log('Entering addIP');
+    return res.json({
+      message: 'Entry added successfully',
       success: true,
     });
   } catch (error) {
