@@ -48,6 +48,34 @@ async function updateEntry(req, res) {
   }
 }
 
+// async function addEntry(req, res) {
+//   const data = JSON.parse(req.body);
+//   // console.log(data);
+//   try {
+//     let { db } = await connectToDatabase();
+//     // console.log(db);
+//     const answer = await db
+//       .collection('updated_answer')
+//       .findOne({ question_no: data.questionNo });
+//     // console.log(answer);
+//     data.answer = parseFloat(answer.answer);
+//     console.log(data);
+//     db.collection('honeypot_website').insertOne(data);
+
+//     //  db.collection('exam_interface').insertOne(JSON.parse(req.body));
+
+//     return res.json({
+//       message: data.answer,
+//       success: true,
+//     });
+//   } catch (error) {
+//     return res.json({
+//       message: new Error(error).message,
+//       success: false,
+//     });
+//   }
+// }
+
 async function addEntry(req, res) {
   const data = JSON.parse(req.body);
   // console.log(data);
@@ -58,8 +86,46 @@ async function addEntry(req, res) {
       .collection('updated_answer')
       .findOne({ question_no: data.questionNo });
     // console.log(answer);
-    data.answer = parseFloat(answer.answer);
-    console.log(data);
+
+    if (
+      ((data.questionNo == '1') & (answer.answer == 41)) |
+      ((data.questionNo == '2') & (answer.answer == 94)) |
+      ((data.questionNo == '3') & (answer.answer == 677)) |
+      ((data.questionNo == '4') & (answer.answer == 61)) |
+      ((data.questionNo == '5') & (answer.answer == 1666)) |
+      ((data.questionNo == '6') & (answer.answer == 142))
+    ) {
+      data.answer = parseInt(answer.answer) + 2;
+      await db.collection('updated_answer').updateOne(
+        {
+          question_no: data.questionNo,
+        },
+        {
+          $set: {
+            answer: data.answer,
+          },
+        }
+      );
+    } else if (
+      ((data.questionNo == '1') & (answer.answer == 77)) |
+      ((data.questionNo == '2') & (answer.answer == 151)) |
+      ((data.questionNo == '6') & (answer.answer == 181))
+    ) {
+      if ((data.questionNo == '1') & (answer.answer == 77))
+        data.answer = parseInt(answer.answer) - 40;
+      else data.answer = parseInt(answer.answer) - 80;
+      await db.collection('updated_answer').updateOne(
+        {
+          question_no: data.questionNo,
+        },
+        {
+          $set: {
+            answer: data.answer,
+          },
+        }
+      );
+    } else data.answer = parseInt(answer.answer);
+
     db.collection('honeypot_website').insertOne(data);
 
     //  db.collection('exam_interface').insertOne(JSON.parse(req.body));
