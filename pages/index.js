@@ -208,7 +208,7 @@ export default function Home(props) {
                                 className="m-2 p-2 bg-gray-400 hover:bg-gray-700 text-white rounded-sm shadow-md ml-6"
                                 id={ques.id}
                                 key={ques.number}
-                                disable={disabled}
+                                disabled={disabled}
                                 onClick={(e) => handleShowAnswer(e)}
                               >
                                 Show Answer
