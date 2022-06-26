@@ -12,8 +12,8 @@ export default function Home(props) {
   const [nextClick, setNextClick] = useState('');
   const [nextClickOthers, setNextClickOthers] = useState('');
   const [hintClick, setHintClick] = useState('');
-
   const [buttonText, setButtonText] = useState('');
+  const [disabled, setDisabled] = useState(false);
   let deviceType = '';
 
   useEffect(async () => {
@@ -36,6 +36,7 @@ export default function Home(props) {
   // Show answer button
   const handleShowAnswer = async (event) => {
     const questionNo = event.target.id.toString();
+    setDisabled(true);
     if (questionNo > 900) {
       setNextClickOthers(questionNo);
       setNextClick('');
@@ -207,6 +208,7 @@ export default function Home(props) {
                                 className="m-2 p-2 bg-gray-400 hover:bg-gray-700 text-white rounded-sm shadow-md ml-6"
                                 id={ques.id}
                                 key={ques.number}
+                                disable={disabled}
                                 onClick={(e) => handleShowAnswer(e)}
                               >
                                 Show Answer
