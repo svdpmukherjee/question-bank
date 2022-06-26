@@ -31,7 +31,14 @@ export default function Home(props) {
       method: 'DELETE',
       body: JSON.stringify(passValue),
     });
-  }, [ip_address_1]);
+  }, []);
+
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setDisabled(false);
+    }, 1500);
+    return () => clearTimeout(timer);
+  }, [disabled]);
 
   // Show answer button
   const handleShowAnswer = async (event) => {
