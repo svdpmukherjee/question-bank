@@ -88,12 +88,12 @@ async function addEntry(req, res) {
     // console.log(answer);
 
     if (
-      ((data.questionNo == '1') & (answer.answer == 42)) |
-      ((data.questionNo == '2') & (answer.answer == 143)) |
+      ((data.questionNo == '1') & (answer.answer == 143)) |
+      ((data.questionNo == '2') & (answer.answer == 62)) |
       ((data.questionNo == '3') & (answer.answer == 678)) |
-      ((data.questionNo == '4') & (answer.answer == 62)) |
-      ((data.questionNo == '5') & (answer.answer == 1666)) |
-      ((data.questionNo == '6') & (answer.answer == 94))
+      ((data.questionNo == '4') & (answer.answer == 1666)) |
+      ((data.questionNo == '5') & (answer.answer == 42))
+      // ((data.questionNo == '6') & (answer.answer == 94))
     ) {
       data.answer = parseInt(answer.answer) + 2;
       await db.collection('updated_answer').updateOne(
@@ -107,11 +107,11 @@ async function addEntry(req, res) {
         }
       );
     } else if (
-      ((data.questionNo == '1') & (answer.answer == 77)) |
-      ((data.questionNo == '2') & (answer.answer == 181)) |
-      ((data.questionNo == '6') & (answer.answer == 151))
+      // ((data.questionNo == '1') & (answer.answer == 77)) |
+      ((data.questionNo == '1') & (answer.answer == 181)) |
+      ((data.questionNo == '5') & (answer.answer == 77))
     ) {
-      if ((data.questionNo == '1') & (answer.answer == 77))
+      if ((data.questionNo == '5') & (answer.answer == 77))
         data.answer = parseInt(answer.answer) - 40;
       else data.answer = parseInt(answer.answer) - 80;
       await db.collection('updated_answer').updateOne(
