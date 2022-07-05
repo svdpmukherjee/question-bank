@@ -50,7 +50,8 @@
   {
     "number": 9,
     "id": 5,
-    "question": "Alina and Luce can do a piece of work in 36 days and 81 days respectively. Both together work for 5 days and then Alina leaves off. How many days will Luce take to finish the remaining work?"
+    "question": "X and Y can do a piece of work in 12 days and 9 days respectively. Both together work for 2 days and then X leaves off. How many days will Y take to finish the remaining work?",
+    "answer": "5"
   },
   {
     "number": 10,
