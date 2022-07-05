@@ -36,7 +36,7 @@ export default function Home(props) {
   useEffect(() => {
     const timer = setTimeout(() => {
       setDisabled(false);
-    }, 4000);
+    }, 6000);
     return () => clearTimeout(timer);
   }, [disabled]);
 
